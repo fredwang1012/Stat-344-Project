@@ -11,6 +11,26 @@ library(tidyverse)
 options(scipen = 999)
 ```
 
-# Big Text
+# Reading in Data
 
-small text
+``` {r warning=FALSE}
+
+all_data_files = list.files("data")
+all_df = read.csv(paste0("data/", all_data_files[1]))
+
+for (i in 2 : length(all_data_files)) {
+  all_df = rbind(all_df, read.csv(paste0("data/", all_data_files[i])))
+}
+
+filtered_df = all_df %>% filter(Section == "OVERALL") %>%
+  mutate(CourseNum = ifelse(
+    is.na(Detail), Course, paste0(Course, Detail)
+  )) %>%
+  select(-Campus, -Year, -Session, -Section, -Professor, -Course, -Detail)
+
+filtered_df %>% slice(1:10)
+
+n = nrow(filtered_df)
+n
+
+```
