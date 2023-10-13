@@ -1,0 +1,16 @@
+---
+title: "STAT 344 Group Project (Part I)"
+author: "Lucas Qin, Frederick Wang, Isabel Wilson"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+options(scipen = 999)
+```
+
+# Big Text
+
+small text
