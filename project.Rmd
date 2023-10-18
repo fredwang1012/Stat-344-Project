@@ -34,6 +34,10 @@ N = nrow(filtered_df)
 N
 
 ```
+```{r}
+histogram = hist(filtered_df$Avg)
+```
+
 
 Since we don't have access to the population standard deviation to guess the standard error of the sample we will be taking, we decided to use our personal transcript standard deviations to estimate the sample standard error. We found our transcript standard deviations to be around 7 percent, so we decided to guess the sample standard error to be 7 as well. 
 
