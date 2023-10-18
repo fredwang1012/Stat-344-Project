@@ -34,29 +34,32 @@ N = nrow(filtered_df)
 N
 
 ```
+
 Since we don't have access to the population standard deviation to guess the standard error of the sample we will be taking, we decided to use our personal transcript standard deviations to estimate the sample standard error. We found our transcript standard deviations to be around 7 percent, so we decided to guess the sample standard error to be 7 as well. 
+
 ```{r}
 margin_of_error = 1 # desired width is 2%
 sample_stdev_guess = 7 # intuitive guess since we don't have previous studies
 n = (1/(1/(qnorm(0.975)^2*sample_stdev_guess^2) + 1/N)) %>% ceiling()
 n
+
 ```
+
 ```{r}
 set.seed(1)
 srs = sample(filtered_df$Avg, n)
 srs
 ```
+
 ```{r}
-sample_mean =  mean(srs)
-sample_se = sqrt((1-n/N)*sd(srs)^2/n)
+sample_mean =  mean(srs); sample_mean
+sample_se = sqrt((1-n/N)*sd(srs)^2/n); sample_se
 
 ci_lb = sample_mean - qnorm(0.975)*sample_se
 ci_ub = sample_mean + qnorm(0.975)*sample_se
 
 conf_int = c(ci_lb, ci_ub)
-print("Confidence Interval for Average UBC Grades Across All Classes in 2021 Winter")
-print(conf_int)
+c("Confidence Interval for Average UBC Grades Across All Classes in 2021", 
+  "Winter Using Simple Random Sample", 
+  conf_int)
 ```
-
-
-
