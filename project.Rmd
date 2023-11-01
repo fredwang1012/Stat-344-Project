@@ -92,11 +92,71 @@ c("Confidence Interval for Proportion of UBC Grades",
   conf_int_p_hat)
 ```
 
-Stratified sampling: 
+Preprocessing before stratifying:
+
 ```{r}
-
-
+process_faculty = function(faculty) {
+  if (faculty == "Faculty of Arts" |
+      faculty == "Faculty of Education") {
+    return ("arts")
+  } else if (faculty == "Faculty of Science" |
+             faculty == "Faculty of Medicine") {
+    return ("science")
+  } else if (faculty == "Faculty of Applied Science") {
+    return ("engineering")
+  } else if (faculty == "Faculty of Comm and Bus Admin" |
+             faculty == "Vancouver School of Economics") {
+    return ("business")
+  } else {
+    return ("other")
+  }
+}
 ```
 
+```{r}
+code2faculty = read.csv("summary.csv") %>%
+  mutate(Faculty = Vectorize(process_faculty)(FacultyRaw)) %>%
+  select(-Description, -FacultyRaw)
+filtered_df = merge(code2faculty, filtered_df, by.x = "Subject")
+```
 
+```{r}
+counts = filtered_df %>% group_by(Faculty) %>%
+  summarize(counts = length(Faculty)) %>% arrange(desc(counts))
+```
+
+Stratified sampling (proportional allocation): 
+```{r}
+stratas = counts$Faculty %>% as.vector()
+num_stratas = length(stratas)
+Nh = counts$counts
+weights = Nh / N
+nh = round(weights * n)
+
+means = rep(0, num_stratas)
+sd = rep(0, num_stratas)
+props = rep(0, num_stratas)
+
+for (i in 1 : num_stratas) {
+  subpopulation = filtered_df %>% filter(Faculty == stratas[i])
+  sample = sample(subpopulation$Avg, nh[i])
+  means[i] = mean(sample)
+  sd[i] = sd(sample)
+  props[i] = length(sample[sample >= 90]) / nh[i]
+}
+
+mean_average_str = sum(weights * means)
+prop_str = sum(weights * props)
+
+se = sd / sqrt(nh) * sqrt(1 - nh / Nh)
+se_mean_average_str = sqrt(sum(weights^2 * se^2))
+
+se_props_squared = props * (1 - props) / nh * (1 - nh / Nh)
+se_prop_str = sqrt(sum(weights^2 * se_props_squared))
+
+ci_mean_str =
+  mean_average_str + c(-1, 1) * qnorm(0.975) * se_mean_average_str
+ci_prop_str =
+  prop_str + c(-1, 1) * qnorm(0.975) * se_prop_str
+```
 
