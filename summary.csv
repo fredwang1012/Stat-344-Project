@@ -1,209 +1,288 @@
-"","Subject","counts"
-"1","AANB",1
-"2","ACAM",6
-"3","ADHE",5
-"4","AFST",6
-"5","ANAT",2
-"6","ANTH",37
-"7","APBI",42
-"8","APPP",5
-"9","APSC",22
-"10","ARBC",5
-"11","ARCH",26
-"12","ARCL",9
-"13","ARST",21
-"14","ARTH",30
-"15","ARTS",1
-"16","ASIA",85
-"17","ASIC",1
-"18","ASL",2
-"19","ASTR",17
-"20","ASTU",6
-"21","ATSC",4
-"22","AUDI",42
-"23","BA",13
-"24","BAAC",4
-"25","BABS",5
-"26","BAEN",10
-"27","BAFI",10
-"28","BAHR",4
-"29","BAIT",9
-"30","BALA",1
-"31","BAMA",13
-"32","BAMS",5
-"33","BAPA",2
-"34","BASC",5
-"35","BASM",8
-"36","BAUL",2
-"37","BEST",10
-"38","BIOC",24
-"39","BIOF",3
-"40","BIOL",95
-"41","BMEG",45
-"42","BOTA",3
-"43","BUSI",38
-"44","CAPS",12
-"45","CCFI",1
-"46","CCST",1
-"47","CDST",2
-"48","CEEN",4
-"49","CELL",5
-"50","CENS",6
-"51","CHBE",57
-"52","CHEM",74
-"53","CHIN",36
-"54","CIVL",82
-"55","CLST",23
-"56","CNPS",18
-"57","CNRS",4
-"58","CNTO",6
-"59","COEC",11
-"60","COGS",5
-"61","COHR",5
-"62","COLX",6
-"63","COMM",111
-"64","COMR",10
-"65","CONS",20
-"66","CPEN",29
-"67","CPSC",73
-"68","CRWR",63
-"69","CSIS",2
-"70","DANI",2
-"71","DENT",2
-"72","DES",19
-"73","DHYG",5
-"74","DSCI",25
-"75","ECED",18
-"76","ECON",84
-"77","ECPS",1
-"78","EDCP",38
-"79","EDST",27
-"80","EDUC",4
-"81","EECE",24
-"82","ELEC",62
-"83","ENGL",98
-"84","ENPH",5
-"85","ENVE",5
-"86","ENVR",6
-"87","EOSC",68
-"88","EPSE",52
-"89","ETEC",22
-"90","FCOR",5
-"91","FIPR",19
-"92","FISH",4
-"93","FIST",18
-"94","FMST",5
-"95","FNEL",9
-"96","FNH",40
-"97","FNIS",12
-"98","FOOD",12
-"99","FOPE",2
-"100","FOPR",4
-"101","FRE",25
-"102","FREN",29
-"103","FRST",65
-"104","GBPR",1
-"105","GEM",7
-"106","GEOB",2
-"107","GEOG",37
-"108","GEOS",20
-"109","GERM",18
-"110","GREK",4
-"111","GRS",1
-"112","GRSJ",30
-"113","GSAT",2
-"114","HEBR",2
-"115","HGSE",4
-"116","HINU",2
-"117","HIST",101
-"118","HPB",4
-"119","IGEN",6
-"120","INDS",1
-"121","INFO",6
-"122","INLB",2
-"123","ISCI",11
-"124","ITAL",8
-"125","ITST",7
-"126","IWME",3
-"127","JAPN",20
-"128","JRNL",16
-"129","KIN",64
-"130","KORN",9
-"131","LAIS",1
-"132","LARC",21
-"133","LASO",1
-"134","LAST",2
-"135","LATN",7
-"136","LAW",117
-"137","LFS",10
-"138","LIBE",5
-"139","LIBR",30
-"140","LING",41
-"141","LLED",30
-"142","LWS",5
-"143","MANU",13
-"144","MATH",94
-"145","MDVL",3
-"146","MECH",85
-"147","MEDG",12
-"148","MEDI",4
-"149","MES",1
-"150","MICB",31
-"151","MIDW",18
-"152","MINE",37
-"153","MRNE",5
-"154","MTRL",39
-"155","MUSC",126
-"156","NAME",7
-"157","NEST",7
-"158","NRSC",1
-"159","NURS",43
-"160","OBST",3
-"161","ONCO",1
-"162","OSOT",5
-"163","PATH",21
-"164","PCTH",10
-"165","PERS",5
-"166","PHAR",9
-"167","PHIL",64
-"168","PHRM",32
-"169","PHTH",14
-"170","PHYS",61
-"171","PLAN",31
-"172","POLI",87
-"173","POLS",1
-"174","PORT",5
-"175","PPGA",30
-"176","PSYC",81
-"177","PUNJ",3
-"178","RELG",8
-"179","RES",9
-"180","RGST",2
-"181","RHSC",15
-"182","RMST",4
-"183","RUSS",11
-"184","SANS",1
-"185","SCAN",5
-"186","SCIE",3
-"187","SLAV",1
-"188","SOCI",55
-"189","SOIL",5
-"190","SOWK",32
-"191","SPAN",23
-"192","SPHA",15
-"193","SPPH",54
-"194","STAT",30
-"195","SURG",8
-"196","SWED",4
-"197","THFL",1
-"198","THTR",58
-"199","TIBT",1
-"200","UDES",6
-"201","UFOR",18
-"202","URST",2
-"203","URSY",4
-"204","VANT",4
-"205","VISA",37
-"206","WOOD",28
-"207","WRDS",5
-"208","ZOOL",1
+Subject,Description,Faculty
+AANB,Applied Animal Biology,Faculty of Land and Food Systems
+ACAM,Asian Canadian and Asian Migration Studies,Faculty of Arts
+ADHE,Adult and Higher Education,Faculty of Education
+AFST,African Studies,Faculty of Arts
+AGEC,Agricultural Economics,Faculty of Land and Food Systems
+AMNE,Ancient Mediterranean and Near Eastern Studies,Faculty of Arts
+ANAT,Anatomy,Faculty of Medicine
+ANTH,Anthropology,Faculty of Arts
+APBI,Applied Biology,Faculty of Land and Food Systems
+APPP,Applied Science Professional Program Platform,Faculty of Applied Science
+APSC,Applied Science,Faculty of Applied Science
+AQUA,Aquaculture,Faculty of Land and Food Systems
+ARBC,Classical Arabic,Faculty of Arts
+ARBM,Modern Standard Arabic,Faculty of Arts
+ARC,Alternative Routes to Computing,Faculty of Science
+ARCH,Architecture,School of Arch and Landscape Arch
+ARCL,Anthropological Archaeology,Faculty of Arts
+ARST,Archival Studies,School of Information
+ARTC,Arts Co-Op,Faculty of Arts
+ARTH,Art History,Faculty of Arts
+ARTS,Arts One Program,Faculty of Arts
+ASIA,Asian Studies,Faculty of Arts
+ASIC,Arts and Science Interdisciplinary Courses,Faculty of Science
+ASIX,Asian Studies Crossings,Faculty of Arts
+ASL,American Sign Language,Faculty of Arts
+ASLA,Asian Languages,Faculty of Arts
+ASTR,Astronomy,Faculty of Science
+ASTU,Arts Studies,Faculty of Arts
+ATSC,Atmospheric Science,Faculty of Science
+AUDI,Audiology and Speech Sciences,School of Audiology and Speech Scie
+BA,Business Administration: Core,Faculty of Comm and Bus Admin
+BAAC,Business Administration: Accounting,Faculty of Comm and Bus Admin
+BABS,Business Administration: Business Statistics,Faculty of Comm and Bus Admin
+BAEN,Business Administration: Entrepreneurship,Faculty of Comm and Bus Admin
+BAFI,Business Administration: Finance,Faculty of Comm and Bus Admin
+BAHR,Business Administration: Human Resources Management,Faculty of Comm and Bus Admin
+BAIT,Business Administration: Business Technology Management,Faculty of Comm and Bus Admin
+BALA,Business Administration: Law,Faculty of Comm and Bus Admin
+BAMA,Business Administration: Marketing,Faculty of Comm and Bus Admin
+BAMS,Business Administration: Management Science,Faculty of Comm and Bus Admin
+BAPA,Business Administration: Policy Analysis,Faculty of Comm and Bus Admin
+BASC,Business Administration: Supply Chain,Faculty of Comm and Bus Admin
+BASM,Business Administration: Strategic Management,Faculty of Comm and Bus Admin
+BAUL,Business Administration: Urban Land Economics,Faculty of Comm and Bus Admin
+BEST,Forest Bioeconomy Sciences and Technology,Faculty of Forestry
+BIOC,Biochemistry,Faculty of Medicine
+BIOF,Bioinformatics,Faculty of Science
+BIOL,Biology,Faculty of Science
+BIOT,Biotechnology,Faculty of Science
+BMEG,Biomedical Engineering,School of Biomedical Engineering
+BOTA,Botany,Faculty of Science
+BRDG,Bridge Program,Faculty of Medicine
+BUSI,Business,Faculty of Comm and Bus Admin
+FSCT,Biochemistry and Forensic Science,Faculty of Medicine
+ARBC,Classical Arabic,Faculty of Arts
+CAPS,"Cellular, Anatomical and Physiological Sciences",Faculty of Medicine
+CCFI,Centre for Cross-Faculty Inquiry,Faculty of Education
+CCST,Critical and Curatorial Studies,Faculty of Arts
+CDST,Canadian Studies,Faculty of Arts
+CEEN,Clean Energy Engineering,Faculty of Applied Science
+CELL,Cell and Developmental Biology,Faculty of Medicine
+CENS,"Central, Eastern and Northern European Studies",Faculty of Arts
+CHBE,Chemical and Biological Engineering,Faculty of Applied Science
+CHEM,Chemistry,Faculty of Science
+CHIL,Children's Literature,Faculty of Arts
+CHIN,Chinese,Faculty of Arts
+CINE,Cinema Studies,Faculty of Arts
+CIVL,Civil Engineering,Faculty of Applied Science
+CLST,Classical Studies,Faculty of Arts
+CMST,Cinema and Media Studies,Faculty of Arts
+CNPS,Counselling Psychology,Faculty of Education
+CNTO,Cantonese,Faculty of Arts
+COEC,Commerce Economics,Faculty of Comm and Bus Admin
+COGS,Cognitive Systems Program,Faculty of Science
+COHR,Commerce Human Resources,Faculty of Comm and Bus Admin
+COLX,Computational Linguistics,Faculty of Arts
+COMM,Commerce,Faculty of Comm and Bus Admin
+COMR,Commerce Minor,Faculty of Comm and Bus Admin
+CONS,Natural Resources Conservation,Faculty of Forestry
+CPEN,Computer Engineering,Faculty of Applied Science
+CPSC,Computer Science,Faculty of Science
+CRWR,Creative Writing,Faculty of Arts
+CSIS,Critical Studies in Sexuality,Faculty of Arts
+CSPW,Coordinated Science Program Workshop,Faculty of Science
+CTLN,Catalan,Faculty of Arts
+EDCP,Curriculum and Pedagogy,Faculty of Education
+PHYL,Cellular and Physiological Sciences,Faculty of Medicine
+PLAN,Community and Regional Planning,School of Comm and Reg Planning
+DANI,Danish,Faculty of Arts
+DENT,Dentistry,Faculty of Dentistry
+DES,Design,School of Arch and Landscape Arch
+DHYG,Dental Hygiene,Faculty of Dentistry
+DMED,Digital Media,Faculty of Arts
+DSCI,Data Science,Faculty of Science
+MEDD,Doctor of Medicine,Faculty of Medicine
+ECED,Early Childhood Education,Faculty of Education
+ECON,Economics,Vancouver School of Economics
+ECPS,"Educational & Counselling Psychology, & Special Education",Faculty of Education
+EDCP,Curriculum and Pedagogy,Faculty of Education
+EDST,Educational Studies,Faculty of Education
+EDUC,Education,Faculty of Education
+EECE,Electrical and Computer Engineering,Faculty of Applied Science
+ELEC,Electrical Engineering,Faculty of Applied Science
+ELI,English Language Institute,Regi
+EMBA,Executive M.B.A.,Faculty of Comm and Bus Admin
+ENDS,Environmental Design,School of Arch and Landscape Arch
+ENGL,English,Faculty of Arts
+ENPH,Engineering Physics,Faculty of Science
+ENPP,Engineering and Public Policy,Faculty of Applied Science
+ENST,Environment and Sustainability,Faculty of Arts
+ENVE,Environmental Engineering,Faculty of Applied Science
+ENVR,Environmental Science,Faculty of Science
+EOSC,Earth and Ocean Sciences,Faculty of Science
+EPSE,Educational Psychology and Special Education,Faculty of Education
+ETEC,Educational Technology,Faculty of Education
+EXCH,Exchange Programs,Regi
+EXGR,Exchange Graduate Research,Regi
+IEST,European Studies,Faculty of Arts
+BEST,Forest Bioeconomy Sciences and Technology,Faculty of Forestry
+FACT,Faculty of Arts Commuter Transition Program,Faculty of Arts
+FCOR,Forestry Core,Faculty of Forestry
+FEBC,Forest Engineering British Columbia,Faculty of Forestry
+FIPR,Film Production,Faculty of Arts
+FISH,Fisheries Research,Faculty of Science
+FMPR,Family Practice,Faculty of Medicine
+FMST,Family Studies,Faculty of Arts
+FNEL,First Nations and Endangered Languages Program,Faculty of Arts
+FNH,"Food, Nutrition and Health",Faculty of Land and Food Systems
+FNIS,First Nations and Indigenous Studies,Faculty of Arts
+FOOD,Food Science,Faculty of Land and Food Systems
+FOPE,Forestry Online Professional Education,Faculty of Forestry
+FOPR,Forest Operations,Faculty of Forestry
+FRE,Food and Resource Economics,Faculty of Land and Food Systems
+FREN,French,Faculty of Arts
+FRSI,Forestry Silviculture Institute,Faculty of Forestry
+FRST,Forestry,Faculty of Forestry
+FSCT,Biochemistry and Forensic Science,Faculty of Medicine
+GEM,Geomatics for Environmental Management,Faculty of Forestry
+GEOG,Geography,Faculty of Arts
+GEOS,Geographical Sciences,Faculty of Arts
+GERN,German,Faculty of Arts
+GMST,German Studies,Faculty of Arts
+GREK,Greek,Faculty of Arts
+GRS,Global Resource Systems,Faculty of Land and Food Systems
+GRSJ,"Gender, Race, Sexuality and Social Justice",Faculty of Arts
+GSAT,Genome Science and Technology,Faculty of Science
+HEBR,Hebrew,Faculty of Arts
+HESO,Health and Society,Faculty of Arts
+HGSE,Haida Gwaii Semesters,Faculty of Forestry
+HINU,Hindi-Urdu,Faculty of Arts
+HIST,History,Faculty of Arts
+HPB,High Performance Buildings,Faculty of Applied Science
+HUNU,Human Nutrition,Faculty of Land and Food Systems
+IAR,Institute of Asian Research,Faculty of Arts
+IEST,European Studies,Faculty of Arts
+IGEN,Integrated Engineering,Faculty of Applied Science
+ILS,Indigenous Land Stewardship,Faculty of Forestry
+INDO,Indonesian,Faculty of Arts
+INDS,Interdisciplinary Studies,Faculty of Grad and Pdoc Studies
+INFO,Information Studies,Faculty of Arts
+INLB,Indigenous Land-Based Studies,Faculty of Arts
+ISCI,Integrated Sciences,Faculty of Science
+ITAL,Italian,Faculty of Arts
+IWME,Integrated Water Management Engineering,Faculty of Applied Science
+RADS,Interdisciplinary Radiology,Faculty of Medicine
+JAPN,Japanese,Faculty of Arts
+JRNL,Journalism,"School of Journalism,Writing,Andmedia"
+KIN,Kinesiology,School of Kinesiology
+KORN,Korean,Faculty of Arts
+LAIS,"Library, Archival and Information Studies",School of Information
+LARC,Landscape Architecture,School of Arch and Landscape Arch
+LASO,Law and Society,Faculty of Arts
+LAST,Latin American Studies,Faculty of Arts
+LATN,Latin,Faculty of Arts
+LAW,Law,Peter A. Allard School of Law
+LFS,Land & Food Systems,Faculty of Land and Food Systems
+LIBE,Teacher Librarianship,Faculty of Education
+LIBR,Library and Information Studies,School of Information
+LING,Linguistics,Faculty of Arts
+LLED,Language and Literacy Education,Faculty of Education
+LWS,Land and Water Systems,Faculty of Land and Food Systems
+ARBM,Modern Standard Arabic,Faculty of Arts
+MANU,Manufacturing Engineering,Faculty of Applied Science
+MATH,Mathematics,Faculty of Science
+MDIA,Media Studies,Faculty of Arts
+MDVL,Medieval Studies,Faculty of Arts
+MECH,Mechanical Engineering,Faculty of Applied Science
+MEDD,Doctor of Medicine,Faculty of Medicine
+MEDG,Medical Genetics,Faculty of Medicine
+MEDI,Medicine,Faculty of Medicine
+MES,Middle East Studies,Faculty of Arts
+MGMT,Management,Vantage College
+MICB,Microbiology,Faculty of Science
+MIDW,Midwifery,Faculty of Medicine
+MINE,Mining Engineering,Faculty of Applied Science
+MRNE,Marine Science,Faculty of Science
+MTRL,Materials Engineering,Faculty of Applied Science
+MUSC,Music,School of Music
+CONS,Natural Resources Conservation,Faculty of Forestry
+NAME,Naval Architecture and Marine Engineering,Faculty of Applied Science
+NEPL,Nepali,Faculty of Arts
+NEST,Near Eastern Studies,Faculty of Arts
+NEUR,Neurosurgery,Faculty of Medicine
+NORD,Nordic Studies,Faculty of Arts
+NRSC,Neuroscience Graduate,Faculty of Medicine
+NSCI,Neuroscience Undergraduate,Faculty of Science
+NURS,Nursing,School of Nursing
+OBMS,Oral Biological Medical Sciences,Faculty of Dentistry
+OBST,Obstetrics and Gynaecology,Faculty of Medicine
+OHS,Oral Health Sciences,Faculty of Dentistry
+ONCO,Oncology,Faculty of Medicine
+ORNT,Orientation to Medical School,Faculty of Medicine
+ORPA,Orthopaedics,Faculty of Medicine
+OSOT,Occupational Science and Occupational Therapy,Faculty of Medicine
+PATH,Pathology,Faculty of Medicine
+PCTH,Pharmacology and Therapeutics,Faculty of Medicine
+PERS,Persian,Faculty of Arts
+PHAR,Pharmaceutical Sciences,Faculty of Pharmaceutical Sciences
+PHIL,Philosophy,Faculty of Arts
+PHRM,Pharmacy,Faculty of Pharmaceutical Sciences
+PHTH,Physical Therapy,Faculty of Medicine
+PHYL,Cellular and Physiological Sciences,Faculty of Medicine
+PHYS,Physics,Faculty of Science
+PLAN,Community and Regional Planning,School of Comm and Reg Planning
+PLAS,Plastic Surgery,Faculty of Medicine
+PLNT,Plant Science,Faculty of Land and Food Systems
+POLI,Political Science,Faculty of Arts
+POLS,Polish,Faculty of Arts
+PORT,Portuguese,Faculty of Arts
+PPGA,Public Policy and Global Affairs,Faculty of Arts
+PRHC,Primary Health Care,Faculty of Medicine
+PSYC,Psychology,Faculty of Arts
+PSYT,Psychiatry,Faculty of Medicine
+PUNJ,Punjabi,Faculty of Arts
+RADI,Radiology,Faculty of Medicine
+RADS,Interdisciplinary Radiology,Faculty of Medicine
+RELG,Religious Studies,Faculty of Arts
+RES,"Resources, Environment and Sustainability",Faculty of Science
+RGLA,"Religion, Literature and The Arts",Faculty of Arts
+RGST,Study of Religion,Faculty of Arts
+RHSC,Rehabilitation Sciences,Faculty of Medicine
+RMST,Romance Studies,Faculty of Arts
+RUSS,Russian,Faculty of Arts
+RGST,Study of Religion,Faculty of Arts
+SANS,Sanskrit,Faculty of Arts
+SCIE,Science,Faculty of Science
+SEAL,Southeast Asian Languages,Faculty of Arts
+SGES,Smart Grid Energy Systems,Faculty of Applied Science
+SLAV,Slavic Studies,Faculty of Arts
+SOAL,South Asian Languages,Faculty of Arts
+SOCI,Sociology,Faculty of Arts
+SOIL,Soil Science,Faculty of Land and Food Systems
+SOWK,Social Work,School of Social Work
+SPAN,Spanish,Faculty of Arts
+SPE,Sustainable Process Engineering,Faculty of Applied Science
+SPHA,School of Population & Public Health,Faculty of Medicine
+SPPH,School of Population & Public Health,Faculty of Medicine
+STAT,Statistics,Faculty of Science
+STS,Science and Technology Studies,Faculty of Grad and Pdoc Studies
+SURG,Surgery,Faculty of Medicine
+SWAH,Swahili,Faculty of Arts
+SWED,Swedish,Faculty of Arts
+LIBE,Teacher Librarianship,Faculty of Education
+TEST,Test,Regi
+THFL,Theatre and Film,Faculty of Arts
+THTR,Theatre,Faculty of Arts
+TIBT,Tibetan Languages,Faculty of Arts
+TRSC,Transition School,No Faculty (Blank for Cross Edits)
+UDES,Urban Design,School of Arch and Landscape Arch
+UFOR,Urban Forestry,Faculty of Forestry
+UKRN,Ukrainian,Faculty of Arts
+URO,Undergraduate Research Opportunities,No Faculty (Blank for Cross Edits)
+UROL,Urological Surgery,Faculty of Medicine
+URST,Urban Studies,Faculty of Arts
+URSY,Urban Systems,Faculty of Applied Science
+WRIT,University Writing Centre Courses,Centre for Continuing Education
+VANT,Vantage College,Vantage College
+VGRD,Visiting Graduate Student,Faculty of Grad and Pdoc Studies
+VISA,Visual Arts,Faculty of Arts
+VRHC,Vocational Rehabilitation Counselling,Faculty of Education
+VURS,Visiting Undergraduate Research Students,Faculty of Applied Science
+WACH,Women+ and Children's Health Sciences,Faculty of Medicine
+WOOD,Wood Products Processing,Faculty of Forestry
+WRDS,"Writing, Research, and Discourse Studies",Faculty of Arts
+WRIT,University Writing Centre Courses,Centre for Continuing Education
+YDSH,Yiddish,Faculty of Arts
+ZOOL,Zoology,Faculty of Science
