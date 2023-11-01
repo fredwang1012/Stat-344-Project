@@ -28,6 +28,11 @@ filtered_df = all_df %>% filter(Section == "OVERALL") %>%
   )) %>%
   select(-Campus, -Year, -Session, -Section, -Professor, -Course, -Detail)
 
+summary <- filtered_df %>% group_by(Subject) %>%
+  summarise(counts= length(Subject)) %>% as.data.frame()
+
+
+
 filtered_df %>% slice(1:10)
 
 N = nrow(filtered_df)
@@ -67,3 +72,13 @@ c("Confidence Interval for Average UBC Grades Across All Classes in 2021",
   "Winter Using Simple Random Sample", 
   conf_int)
 ```
+
+
+Stratified sampling: 
+```{r}
+
+
+```
+
+
+
