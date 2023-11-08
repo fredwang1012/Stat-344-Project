@@ -1,0 +1,32 @@
+---
+title: "STAT 344 Group Project - Appendix: Data"
+output: pdf_document
+urlcolor: blue
+---
+
+We collected the data from online. The full data can be found [here](https://github.com/DonneyF/ubcgrades).
+
+Here are 10 randomly selected observations from the data (after some initial pre-processing), to give a representative idea of what the data looks like:
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+options(scipen = 999)
+
+all_data_files = list.files("data")
+all_df = read.csv(paste0("data/", all_data_files[1]))
+
+for (i in 2 : length(all_data_files)) {
+  all_df = rbind(all_df, read.csv(paste0("data/", all_data_files[i])))
+}
+
+filtered_df = all_df %>% filter(Section == "OVERALL") %>%
+  mutate(CourseNum = ifelse(
+    is.na(Detail), Course, paste0(Course, Detail)
+  )) %>%
+  select(-Campus, -Year, -Session, -Section, -Professor, -Course, -Detail)
+
+N = nrow(filtered_df)
+set.seed(2630)
+filtered_df %>% slice(sample(N, 10))
+```

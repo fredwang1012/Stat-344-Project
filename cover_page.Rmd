@@ -1,0 +1,30 @@
+---
+title: "STAT 344 Group Project"
+author: ""
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Group Members
+
+- Lucas Qin (44870194) - Group Leader
+  - wrote the majority of code for sampling and analysis
+  - provided technical support to group members when needed
+  - wrote part of the report
+  - (part 2) read the research paper and edited summary
+
+- Isabel Wilson (86591872)
+  - made a csv file of departments for use when assigning courses to strata
+  - help code stratified sampling
+  - wrote part of the report
+  - (part 2) read the research paper and edited summary
+
+- Frederick Wang (57974032)
+  - initialized Git repository for project and maintained it
+  - performed sample size calculations
+  - fixed bugs in R calculation expressions
+  - (part 2) read the research paper and wrote the summary for it

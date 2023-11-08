@@ -1,7 +1,5 @@
 ---
-title: "STAT 344 Group Project (Part I)"
-author: "Lucas Qin, Frederick Wang, Isabel Wilson"
-date: "`r Sys.Date()`"
+title: "STAT 344 Group Project - Appendix: R Code"
 output: pdf_document
 ---
 
@@ -37,9 +35,6 @@ N
 ```{r}
 histogram = hist(filtered_df$Avg)
 ```
-
-
-Since we don't have access to the population standard deviation to guess the standard error of the sample we will be taking, we decided to use our personal transcript standard deviations to estimate the sample standard error. We found our transcript standard deviations to be around 7 percent, so we decided to guess the sample standard error to be 7 as well. 
 
 ```{r}
 margin_of_error = 1 # desired width is 2%
